@@ -26,7 +26,7 @@ class IPgenerator2 {
             case 5: view_host = "148.197.67.215"; break;
             case 6: view_host = "148.197.67.216"; break;
             default: 
-                System.out.println("This machine doesn't exist, please choose a valid host");
+                System.out.println("This machine doesn't exist, please choose a valid host-id");
                 return null;
         }
         return view_host;
